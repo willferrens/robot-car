@@ -9,7 +9,7 @@
 </div>
 
 ## Overview
-An imporvised circuit consisting of an LM339-N chip that controls the overall logic of the car that passes input from three light sensors on the front of the car into an external logic circuit that then routes its respective logic back into MOSFETs on the original circuit in order to manage motor control. The external unit utilizes a quad NAND gate chip that provides the motors with power when circuit logic is met. For my purposes, I simplified the logic for my external circuit pushing power depending on simply the left and center sensor. The logic for the external circuit is as follows: L<sub>W</sub> = L<sub>S</sub>' and R<sub>W</sub> = L<sub>S</sub>' + C<sub>S</sub>'
+An improvised circuit consisting of an LM339-N chip that controls the overall logic of the car that passes input from three light sensors on the front of the car into an external logic circuit that then routes its respective logic back into MOSFETs on the original circuit in order to manage motor control. The external unit utilizes a quad NAND gate chip that provides the motors with power when circuit logic is met. For my purposes, I simplified the logic for my external circuit pushing power depending on simply the left and center sensor. The logic for the external circuit is as follows: L<sub>W</sub> = L<sub>S</sub>' and R<sub>W</sub> = L<sub>S</sub>' + C<sub>S</sub>'
 ### Purpose
 The circuit was meant to act as a testing ground for the my classmate's own external logic circuits in my IB Computer Science course during our unit on circuits. I devised the original circuit controlling overall logic that then allowed for my classmates to plug in their own circuits and complete the car's functionality.
 
